@@ -230,7 +230,7 @@ local plugin_syntax = {
     TSVariableBuiltin = { fg = orange },
     -- TSDefinitionUsage = {},
     -- TSDefinition = {},
-    -- TSCurrentScope                 = {},
+    -- TSCurrentScope         = {},
     -- TSText                 = {},
     -- TSStrong               = {},
     -- TSEmphasis             = {},
@@ -238,6 +238,8 @@ local plugin_syntax = {
     -- TSTitle                = {},
     -- TSLiteral              = {},
     -- TSURI                  = {},
+    SneakLabel = { bg = cyan_dark, fg = bg_darker, gui = 'bold' },
+    SneakLabelMask = { bg = cyan_dark, fg = cyan_dark }
 }
 
 for group, styles in pairs(plugin_syntax) do
