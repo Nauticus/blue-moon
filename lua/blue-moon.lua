@@ -82,6 +82,7 @@ local editor_syntax = {
     VisualNOS    = { bg = hollow_lighter },
     WarningMsg   = { fg = yellow, gui = 'italic' },
     Whitespace   = { bg = yellow }, -- TODO: i don't know where this is
+    ColorColumn  = { bg = bg },
 
     -- git highlighting
     gitcommitComment        = { fg = fg_dark, gui = 'italic' },
